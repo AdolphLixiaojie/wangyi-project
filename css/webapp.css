@@ -6,7 +6,7 @@ html,body{
     height: 100%;
 }
 html{
-    font-size: 26.67vw;
+    font-size: 26.67vw;/*200px*/
 }
 body{
     display: flex;
@@ -18,4 +18,41 @@ header{
     background-color: #d43b33;
     display: flex;
     justify-content: space-between;
+}
+header>.iconfont{
+    width: 0.54rem;
+    font-size: 0.24rem;
+    color: #fef9fa;
+    display: flex;
+    align-items: center;
+}
+header form{
+    flex: 1;/* 等同于flex:auto; */
+    background-color: #ffffff; 
+    height: 0.3rem;
+    display: flex;  
+    align-self: center; 
+    border-radius: 0.03rem;
+    overflow: hidden;
+}
+header form .iconfont{
+    padding-left: 0.47rem;
+    display: flex;  
+    align-items: center;
+    padding-top: 0.01rem;
+    font-size: 0.14rem;
+    color: #e2e2e2;
+}
+header form input{
+    border: none;
+    flex: 1;
+    font-size: 0.14rem;
+    color: #e2e2e2;
+    padding-left: 0.09rem;
+}
+header>.iconfont:first-child{
+    padding-left: 0.15rem;
+}
+header>.iconfont:last-child{
+    padding-left: 0.18rem;
 }
