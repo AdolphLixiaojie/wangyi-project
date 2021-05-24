@@ -78,4 +78,58 @@ nav a:first-child{
     color: #d43b33;
     border-color: #d43b33;
 } */
-
+/* content */
+/* banner */
+main{
+    flex: 1;
+    background-color: rgba(26, 26, 119, 0.322);
+    overflow: auto;
+}
+main .content .banner{
+    height: 1.39rem;
+}
+main .content .banner img{
+    height: 100%;
+    width: 100%;
+}
+/* adcontent */
+main .content .adcontent{
+    display: flex;
+    align-items: center;
+    height: 1.04rem;
+    border-bottom: 1px solid #999;
+    padding: 0 0.12rem;
+}
+main .content .adcontent dl{
+    width: 33.33%;  
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+main .content .adcontent dl .iconfont{
+    width: 0.54rem;
+    height: 0.54rem;
+    border: 1px solid #d23c30;
+    border-radius: 50%;
+    font-size: 0.26rem;
+    color: #d23c30;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main .content .adcontent dl:nth-child(2) .iconfont{
+    font-size: 0.36rem;
+}
+main .content .adcontent dl dd{
+    font-size: 0.12rem;
+    margin-top: 0.07rem;
+}
+/* footer */
+footer{
+    height: 0.49rem;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+}
