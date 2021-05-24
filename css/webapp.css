@@ -56,3 +56,26 @@ header>.iconfont:first-child{
 header>.iconfont:last-child{
     padding-left: 0.18rem;
 }
+/* nav */
+nav{
+    height: 0.4rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0.12rem;
+}
+nav a{
+    display: flex;
+    align-items: center;
+    font-size: 0.15rem;
+    border-bottom: 4px solid #f9f9f9;
+    padding:0.06rem;
+}
+nav a:first-child{
+    color: #d43b33;
+    border-color: #d43b33;
+}
+/* nav a:hover{
+    color: #d43b33;
+    border-color: #d43b33;
+} */
+
