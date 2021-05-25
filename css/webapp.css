@@ -82,7 +82,7 @@ nav a:first-child{
 /* banner */
 main{
     flex: 1;
-    background-color: rgba(26, 26, 119, 0.322);
+    background-color: rgba(26, 119, 104, 0.219);
     overflow: auto;
 }
 main .content .banner{
@@ -125,6 +125,33 @@ main .content .adcontent dl dd{
     font-size: 0.12rem;
     margin-top: 0.07rem;
 }
+/* title */
+main .title{
+    width: 100%;
+    height: 0.46rem;
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0.1rem;
+}
+main .title aside:first-child{
+     padding-top: 0.2rem;
+}
+main .title aside:first-child .iconfont{
+    color: #b07777;
+    font-size: 0.17rem;
+    padding-right: 0.06rem;
+}
+main .title aside:first-child span{
+    font-size: 0.17rem;
+}
+main .title aside:last-child{
+    font-size: 0.12rem;
+    padding-top: 0.23rem;
+    color: #909291;
+}
+/* imglist */
+
 /* footer */
 footer{
     height: 0.49rem;
